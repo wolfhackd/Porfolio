@@ -60,7 +60,7 @@
     position: absolute;
 }
 
-footer{
+#down{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +68,7 @@ footer{
     margin-top: 80px;
 }
 
-footer p {
+#down p {
     font-family: 'Roboto','sans-serif';
     text-align: center;
     
@@ -78,4 +78,76 @@ footer p {
     width: 51px;
     height: 40px;
     cursor: pointer;
+}
+
+/* projetos */
+
+#projetos{
+    height: 100vh;
+    background-color: #0d2636;
+    font-family: 'Roboto','sans-serif';
+    color: white;
+}
+
+#projetos div{
+    background-color: #0d2636;
+}
+
+#sec-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#lado1{
+    padding-left: 70px;
+    padding-bottom: 80px;
+}
+
+#lado1 h1{
+    padding: 20px;
+    text-decoration: underline 1px white;
+}
+
+#lado2{
+    width: 400px;
+    padding-right: 70px;
+    font-size: 20px;
+    
+}
+
+#linkCalculadora{  
+    display: block;
+    border: solid 1px snow;
+    margin-left: 0px;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+}
+
+#sec-container img{
+    width: 450px;
+    height: 350px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+#projetos nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#projetos nav span{
+    background-color: #517286;
+    width: 449px;
+    text-align: center;
+    border: solid 1px snow;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }

@@ -1,0 +1,1 @@
+cada barra da sessão 2 quando selecionado vai ter cor octocat e border top none
